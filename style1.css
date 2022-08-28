@@ -1,0 +1,36 @@
+input{
+  margin-left: 11px;
+  margin-top: 15px;
+  justify-content: center;
+    align-items: center;
+  width:370px;
+  height:45px;
+  border-radius: 8px;
+  border:2px solid #f0f0f0;
+}
+
+
+.reset{
+margin-top: 60px;
+   margin-left: 130px;
+   color:#4e91fd;
+   font-size: 18px;
+   text-decoration:none;
+}
+.error{
+  color:red;
+  position:auto;
+  margin-left:10px;
+}
+.login{
+   border:1px;
+    border-radius:8px;
+    width:380px;
+    height:45px;
+    background-color:#3371f4;
+    margin-top: 15px;
+    margin-left: 11px;
+    color:white;
+    font-size: 25px;
+
+}
